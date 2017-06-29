@@ -1,0 +1,76 @@
+Arguments: 
+  /usr/bin/nodejs /usr/bin/yarn add react-native-scrollable-tab-view
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/opt/android-sdk/platform-tools:/opt/android-sdk/tools:/home/boy_ngheo_co_don_9x/Android/Sdk/tools:/home/boy_ngheo_co_don_9x/Android/Sdk/platform-tools
+
+Yarn version: 
+  0.24.5
+
+Node version: 
+  6.3.1
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "name": "newRN",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+      "start": "node node_modules/react-native/local-cli/cli.js start",
+      "test": "jest"
+    },
+    "dependencies": {
+      "moment": "^2.18.1",
+      "native-base": "^2.1.4",
+      "react": "16.0.0-alpha.6",
+      "react-native": "0.44.0",
+      "react-native-animatable": "^1.2.2",
+      "react-native-barcode-builder": "^0.3.0",
+      "react-native-camera": "^0.9.0",
+      "react-native-datepicker": "^1.6.0",
+      "react-native-device-info": "^0.10.2",
+      "react-native-fbsdk": "^0.6.0",
+      "react-native-fcm": "^6.2.3",
+      "react-native-fetch-blob": "^0.10.5",
+      "react-native-i18n": "^1.0.0",
+      "react-native-image-crop-picker": "^0.13.1",
+      "react-native-maps": "^0.15.2",
+      "react-native-router-flux": "^3.39.1",
+      "react-native-splash-screen": "^2.0.0",
+      "react-native-vector-icons": "^4.2.0",
+      "react-navigation": "^1.0.0-beta.9",
+      "react-redux": "^5.0.5",
+      "redux": "^3.6.0"
+    },
+    "devDependencies": {
+      "babel-jest": "20.0.3",
+      "babel-preset-react-native": "1.9.2",
+      "jest": "20.0.3",
+      "react-test-renderer": "16.0.0-alpha.6"
+    },
+    "jest": {
+      "preset": "react-native"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/react-native-fetch-blob/-/react-native-fetch-blob-0.10.5.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (/usr/lib/node_modules/yarn/node_modules/request/request.js:819:19)
+      at ClientRequest.g (events.js:286:16)
+      at emitNone (events.js:86:13)
+      at ClientRequest.emit (events.js:185:7)
+      at TLSSocket.emitTimeout (_http_client.js:614:10)
+      at TLSSocket.g (events.js:286:16)
+      at emitNone (events.js:86:13)
+      at TLSSocket.emit (events.js:185:7)
+      at TLSSocket.Socket._onTimeout (net.js:333:8)
+      at tryOnTimeout (timers.js:228:11)

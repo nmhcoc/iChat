@@ -1,0 +1,37 @@
+{
+    "connectionTimeout": "Vui lòng kiểm tra internet",
+    "message": "Thông báo",
+    //login page
+    "login": "Đăng nhập",
+    "backMore": "Nhấn phím quay lại lần nữa để thoát ứng dụng",
+    "new": "Mới",
+    "customCome": "Khách đến",
+    "done": "Đã xong",
+    "blankUsername": "Hãy nhập vào tên đăng nhập",
+    "invalidUsername": "Hãy nhập vào tên đăng nhập hợp lệ",
+    "blankPassword": "Hãy nhập vào mật khẩu",
+    //login page
+    "username": "Tên đăng nhập",
+    "password": "Mật khẩu",
+    "rePassword": "Nhập lại mật khẩu",
+    "register": "Đăng ký",
+    "forgotPassword": "Quên mật khẩu?",
+    "remember": "Ghi nhớ",
+    // register page
+    "repassword": "Nhập lại mật khẩu",
+    // change password page
+    "currentPW": "Mật khẩu hiện tại",
+    "newPassword": "Mật khẩu mới",
+    "update": "Cập nhật",
+    "name": "Họ tên",
+    "dob": "Ngày sinh",
+    "gender": "Giới tính",
+    "male": "Nam",
+    "female": "Nữ",
+    "email": "Địa chỉ email",
+    "addr": "Địa chỉ",
+    "phone": "Số điện thoại",
+    "selectDate": "Chọn ngày",
+    "confirm": "Xác nhận",
+    "Cancel": "Huỷ bỏ"
+}
